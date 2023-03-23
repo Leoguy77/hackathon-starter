@@ -2,7 +2,7 @@ name: Tag new npm package releases
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - package.json
 jobs:
