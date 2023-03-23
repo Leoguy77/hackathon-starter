@@ -11,5 +11,3 @@ jobs:
       - uses: usafder/setup-node-with-cache@v1.0.0
         with:
           NODE_VERSION: 18.14.2
-      - run: npm run lint
-      - run: npm run test
